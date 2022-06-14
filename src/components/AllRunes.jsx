@@ -2,7 +2,7 @@ import React from 'react';
 import {collections} from '../helper/Collection';
 import SingleNft from './SingleNft'
 const styles = {
-container:"mt-16 w-full px-8 flex flex-col mb-8",
+container:"mt-16 w-full px-2 flex flex-col mb-8",
 filterContainer:"w-full flex space-x-4",
 title:"normal-subT text-[#fff] ",
 parentWrap:"w-full flex   ",
