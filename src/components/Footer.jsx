@@ -8,7 +8,8 @@ const styles = {
     title:"zen text-[56px] text-[#fff] text-center ",
     iconContainer:"flex space-x-4 items-center",
     singleIcon:"bg-btnBg rounded-full h-12 w-12 flex justify-center items-center",
-    icon:" text-[16px] text-[#fff]"
+    icon:" text-[16px] text-[#fff]",
+    iconImg:"w-4 h-auto"
 
 }
 const Footer = () => {
@@ -18,16 +19,23 @@ const Footer = () => {
           <h1 className={styles.title}>Join The Ecosystem</h1>
           <div className={styles.iconContainer}>
             <div className={styles.singleIcon}>
-              <FaTwitter className={styles.icon} />
+              <img src='https://res.cloudinary.com/www-daniekeys-com/image/upload/v1655306623/u_twitter_pbmfdo.png' alt="icon" className={styles.iconImg} />
+              {/* <FaTwitter className={styles.icon} /> */}
             </div>
             <div className={styles.singleIcon}>
-              <IoLogoFacebook className={styles.icon} />
+            <img src='https://res.cloudinary.com/www-daniekeys-com/image/upload/v1655306623/u_facebook_wntqlm.png' alt="icon" className={styles.iconImg} />
+
+              {/* <IoLogoFacebook className={styles.icon} /> */}
             </div>
             <div className={styles.singleIcon}>
-              <FaInstagramSquare className={styles.icon} />
+            <img src='https://res.cloudinary.com/www-daniekeys-com/image/upload/v1655306623/u_instagram-alt_qk0ouj.png' alt="icon" className={styles.iconImg} />
+
+              {/* <FaInstagramSquare className={styles.icon} /> */}
             </div>
             <div className={styles.singleIcon}>
-              <FaTelegram className={styles.icon} />
+            <img src='https://res.cloudinary.com/www-daniekeys-com/image/upload/v1655306623/u_telegram_zsa50m.png' alt="icon" className={styles.iconImg} />
+
+              {/* <FaTelegram className={styles.icon} /> */}
             </div>
          
           </div>
