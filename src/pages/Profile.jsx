@@ -4,7 +4,7 @@ import heroImg from "../assets/hero-img.png";
 
 import RelatedRuin from "../components/RelatedRuin";
 import Footer from "../components/Footer";
-
+import FilterTab from '../components/CollectionFilter'
 import mini from "../assets/mini-icon.png";
 const styles = {
   homeBg: "bg-bgDark h-full 2xl:container 2xl:mx-auto  ",
@@ -18,7 +18,7 @@ const styles = {
   title: "zen text-[#fff] text-[20px] mb-2 text-center",
   walletbtn:
     "bg-btnBg rounded-[32px] min-w-[108px] py-[12px] px-[16px] text-[#999999] ",
-  aboutContainer: "w-8/12 h-full mb-8 mt-[19px]",
+  aboutContainer: "w-11/12 h-full mb-8 mt-[19px]",
   aboutText: "text-[14px] text-textWhite text-center leading-5",
 };
 const Community = () => {
@@ -38,15 +38,18 @@ const Community = () => {
                 <p className={styles.title}>Freya's Rune</p>
                 <button className={styles.walletbtn}>0f2cd...34hh</button>
                 <div className={styles.aboutContainer}>
-                  
                   <p className={styles.aboutText}>
-                  A beautiful kind of love, an expensive death. A beautiful kind
-                  of love, an expensive death. A beautiful kind of love, an
-                  expensive death.
-                </p>
+                    Our runes are 24 uniquely genrated runes, containing 4
+                    different attributes based on the Odin Runes. Each
+                    attricbute has an extensive variety of traits, making some
+                    runes more rare than the other
+                  </p>
+                </div>
               </div>
-              </div>
+
             </div>
+
+          <FilterTab />
           </div>
 
           {/* <Footer /> */}

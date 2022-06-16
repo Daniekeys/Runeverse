@@ -39,7 +39,7 @@ const Navbar = () => {
           <div className={styles.right}>
             <ul className={styles.linksContainer}>
               <li className={styles.listItem}>
-                <NavLink to="/collection" className={styles.link}>
+                <NavLink to="/item" className={styles.link}>
                   Collection
                 </NavLink>
               </li>

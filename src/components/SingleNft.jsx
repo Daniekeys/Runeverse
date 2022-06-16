@@ -3,7 +3,7 @@ import icon from '../assets/mini-icon.png'
 import {Link}from 'react-router-dom'
 import LazyLoad from "react-lazyload";
 const styles = {
-  container: " cursor-pointer w-[270px] md:m-6  xl:m-2 h-auto p-[25px] flex flex-col font-special bg-btnBg shadow-sm ",
+  container: " cursor-pointer w-full md:m-6  xl:m-2 h-auto p-[25px] flex flex-col font-special bg-btnBg shadow-sm ",
   imgContainer: "w-[220px] h-[220px] mb-[24px]",
   img: "w-full h-auto",
   secA: "w-full flex justify-between items-center mb-2 ",
@@ -17,12 +17,13 @@ const styles = {
 
 };
 const SingleNft = ({image,name, price, type }) => {
-    
+    const placeholder =
+      "https://res.cloudinary.com/www-daniekeys-com/image/upload/v1655392378/usee_nxxrne.png";
     return (
       <div className={styles.container}>
         <div className={styles.imgContainer}>
         <LazyLoad height={220} once width={220}>
-          <img src={image} alt={name} className={styles.img}  />
+          <img src={placeholder} alt={name} className={styles.img}  />
           </LazyLoad>
         </div>
         <div className={styles.secA}>

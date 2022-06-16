@@ -59,9 +59,10 @@ const Assets = () => {
                     </div>
                     <div className={styles.aboutContainer}>
                       <p className={styles.aboutText}>
-                        A beautiful kind of love, an expensive death. A
-                        beautiful kind of love, an expensive death. A beautiful
-                        kind of love, an expensive death.
+                        Our runes are 24 uniquely genrated runes, containing 4
+                        different attributes based on the Odin Runes. Each
+                        attricbute has an extensive variety of traits, making
+                        some runes more rare than the other
                       </p>
                     </div>
                     {/* ######end of about */}
@@ -93,9 +94,7 @@ const Assets = () => {
                     </div>
                     {/* ############ end of create */}
                     <div className={styles.priceSec}>
-                      <p className={styles.createTitle}>
-                    Current Price
-                        </p>
+                      <p className={styles.createTitle}>Current Price</p>
                       <div className={styles.priceContainer}>
                         <p className={styles.price}>4.4 ETH</p>
                         <div className={styles.div} />
@@ -105,8 +104,8 @@ const Assets = () => {
                     {/* ########end of price sec */}
                     <div className={styles.buyContainer}>
                       <div className={styles.buyFamily}>
-                          <button className={styles.buyNow}>Buy Now</button>
-                          <button className={styles.shareBtn}>Share</button>
+                        <button className={styles.buyNow}>Buy Now</button>
+                        <button className={styles.shareBtn}>Share</button>
                       </div>
                     </div>
 
